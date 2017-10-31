@@ -1,0 +1,41 @@
+{
+    "name": "borobudur/borobudur",
+    "type": "library",
+    "description": "Modern PHP Architecture",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iqbal Maulana",
+            "email": "iq.bluejack@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "ramsey/uuid": "^3.0",
+        "psr/http-message": "^1.0",
+        "zendframework/zend-diactoros": "^1.6",
+        "doctrine/orm": "^2.6",
+        "psr/container": "^1.0",
+        "symfony/expression-language": "^4.0"
+    },
+    "replace": {
+        "borobudur/collection": "self.version",
+        "borobudur/dci": "self.version",
+        "borobudur/ddd": "self.version",
+        "borobudur/http": "self.version",
+        "borobudur/identifier": "self.version",
+        "borobudur/messaging": "self.version",
+        "borobudur/parameter": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "Borobudur\\Component\\": "src/Borobudur/Component"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
