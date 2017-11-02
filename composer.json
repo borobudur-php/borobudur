@@ -17,7 +17,7 @@
         "zendframework/zend-diactoros": "^1.6",
         "doctrine/orm": "^2.6",
         "psr/container": "^1.0",
-        "symfony/expression-language": "^4.0"
+        "symfony/expression-language": "^3.4"
     },
     "replace": {
         "borobudur/collection": "self.version",
