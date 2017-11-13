@@ -26,7 +26,8 @@
         "borobudur/http": "self.version",
         "borobudur/identifier": "self.version",
         "borobudur/messaging": "self.version",
-        "borobudur/parameter": "self.version"
+        "borobudur/parameter": "self.version",
+        "borobudur/mapper": "self.version"
     },
     "autoload": {
         "psr-4": {
