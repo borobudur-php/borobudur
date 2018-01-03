@@ -1,7 +1,7 @@
 {
-    "name": "borobudur/ddd",
+    "name": "borobudur/hateoas",
     "type": "library",
-    "description": "Borobudur Ddd Component",
+    "description": "Borobudur Hateoas Transformer Component",
     "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
@@ -11,12 +11,11 @@
         }
     ],
     "require": {
-        "borobudur/identifier": "~0.1",
-        "borobudur/collection": "~0.1"
+        "borobudur/transformer": "~0.1"
     },
     "autoload": {
         "psr-4": {
-            "Borobudur\\Component\\Ddd\\": ""
+            "Borobudur\\Component\\Hateoas\\": ""
         }
     },
     "extra": {

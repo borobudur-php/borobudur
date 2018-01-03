@@ -1,7 +1,7 @@
 {
-    "name": "borobudur/ddd",
+    "name": "borobudur/transformer",
     "type": "library",
-    "description": "Borobudur Ddd Component",
+    "description": "Borobudur Transformer Component",
     "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
@@ -10,13 +10,9 @@
             "email": "iq.bluejack@gmail.com"
         }
     ],
-    "require": {
-        "borobudur/identifier": "~0.1",
-        "borobudur/collection": "~0.1"
-    },
     "autoload": {
         "psr-4": {
-            "Borobudur\\Component\\Ddd\\": ""
+            "Borobudur\\Component\\Transformer\\": ""
         }
     },
     "extra": {
